@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faiz's Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .about-section {
+      text-align: center;
+      padding: 30px;
+      background-color: white;
+    }
+
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 3px solid #0077b6;
+      object-fit: cover;
+    }
+
+    section {
+      margin: 30px auto;
+      width: 80%;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #0077b6;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    table {
+      width: 80%;
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #0077b6;
+      padding: 8px 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #0077b6;
+      color: white;
+    }
+
+    .project {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .project img {
+      width: 80%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin: 10px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #0077b6;
+      color: white;
+      margin-top: 20px;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" class="about-section">
+    <img src="WhatsApp Image 2025-09-30 at 10.07.47.jpeg" alt="Faiz Profile Picture" class="profile-img">
+    <h2>About Me</h2>
+    <p>Hello! I'm <strong>Faiz Mohammed</strong>, a passionate Computer Science student at <strong>KR Mangalam University</strong> (2026–2029). 
+      I love coding, exploring new technologies, and building creative projects that solve real-world problems.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <table>
+      <tr><th>Skill</th><th>Proficiency</th></tr>
+      <tr><td>HTML</td><td>Advanced</td></tr>
+      <tr><td>CSS</td><td>Intermediate</td></tr>
+      <tr><td>JavaScript</td><td>Basic</td></tr>
+      <tr><td>Python</td><td>Intermediate</td></tr>
+    </table>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Project 1: Personal Portfolio Website</h3>
+      <img src="https://images.unsplash.com/photo-1605379399642-870262d3d051" alt="Project 1">
+      <p>A simple and responsive portfolio website built using HTML and CSS. It showcases personal details, skills, and contact information in an elegant layout.</p>
+    </div>
+
+    <div class="project">
+      <h3>Project 2: Student Management System</h3>
+      <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0" alt="Project 2">
+      <p>A Python-based student data management system with basic CRUD operations that helps manage student records efficiently.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <table>
+      <tr><td>Email:</td><td>faizmohmmed007@gmail.com</td></tr>
+      <tr><td>Phone:</td><td>8295679907</td></tr>
+      <tr><td>University:</td><td>KR Mangalam University</td></tr>
+      <tr><td>School:</td><td>SND Public School</td></tr>
+      <tr><td>10th Percentage:</td><td>83%</td></tr>
+      <tr><td>12th Percentage:</td><td>82%</td></tr>
+    </table>
+  </section>
+
+  <footer>
+    <p><a href="#skills">Skills</a> | <a href="#projects">Projects</a> | <a href="#contact">Contact</a> | <a href="#about">About</a></p>
+  </footer>
+
+</body>
+</html>
